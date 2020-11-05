@@ -1,12 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Navbar from '../navbar';
+import SideBar from '../sideBar/index';
 import {HeroBtn, HeroContainer, HeroContent, HeroH1, HeroItems, HeroP} from './HeroElements';
 
 const Hero = () => {
 
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => {
+        setIsOpen(!isOpen);
+    };
+
     return (
         <HeroContainer>
-            <Navbar />
+            <Navbar toggle={toggle}/>
+            <SideBar isOpen={isOpen} toggle={toggle}/>
             <HeroContent>
                 <HeroItems>
                     <HeroH1>Greatest Pizza Ever</HeroH1>
