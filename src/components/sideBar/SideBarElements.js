@@ -7,10 +7,10 @@ export const SideBarContainer = styled.aside`
     position: fixed;
     z-index: 999;
     width: 350px;
+    height: 100vh;
     background: #ffc500;
     display: grid;
     top: 0;
-    bottom: 0;
     transition: 0.3s ease-out;
     right: ${({isOpen}) => (isOpen ? '0' : '-1000px')};
 
@@ -36,14 +36,20 @@ export const Icon = styled.div`
 `;
 
 export const SideBarMenu = styled.div`
+    position: absolute;
+    top: 7rem;
+    right: 5.7rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 80px);
-    padding-top: 100px;
+    height: 100%;
     text-align: center;
 
     @media screen and (max-width: 480px) {
         grid-template-rows: repeat(3, 60px);
+        top: 7rem;
+        right: 6.4rem;
+        grid-gap: 20px;
     }
 `;
 
@@ -68,6 +74,14 @@ export const SideBtnWrap = styled.div`
     display: flex;
     justify-content: center;
     height: fit-content;
+    position: absolute;
+    top: 24rem;
+    right: 5rem;
+
+    @media screen and (min-width: 900px) {
+        top: 25rem;
+        right: 4rem;
+    }
 `;
 
 export const SideBarRoute = styled(Link)`

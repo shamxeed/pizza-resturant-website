@@ -10,11 +10,11 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SideBarMenu>
                 <SideBarLink>Pizza</SideBarLink>
-                <SideBarLink>Pizza</SideBarLink>
-                <SideBarLink>Pizza</SideBarLink>
+                <SideBarLink>Shawarma</SideBarLink>
+                <SideBarLink>Fura da Nono</SideBarLink>
             </SideBarMenu>
             <SideBtnWrap>
-                <SideBarRoute to='/'>Order Now</SideBarRoute>
+                <SideBarRoute>Order Now</SideBarRoute>
             </SideBtnWrap>
         </SideBarContainer>
     )
