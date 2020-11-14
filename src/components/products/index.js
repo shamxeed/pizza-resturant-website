@@ -1,5 +1,15 @@
 import React from 'react';
-import { ProductBtn, ProductCard, ProductDesc, ProductHeading, ProductImg, ProductInfo, ProductPrice, ProductsContainer, ProductsWrapper, ProductTItle } from './ProductsElements';
+import { ProductBtn,
+         ProductCard, 
+         ProductDesc, 
+         ProductHeading, 
+         ProductImg, 
+         ProductInfo, 
+         ProductPrice, 
+         ProductsContainer, 
+         ProductsWrapper, 
+         ProductTItle 
+    } from './ProductsElements';
 
 const Product = ({heading, data}) => {
 
@@ -19,7 +29,7 @@ const Product = ({heading, data}) => {
                             </ProductInfo>
                         </ProductCard>
                     );
-                })};
+                })}
             </ProductsWrapper>
         </ProductsContainer>
     );

@@ -3,6 +3,7 @@ import { GlobalStyle } from './GlobalStyle';
 import Hero from './components/hero';
 import Product from './components/products';
 import { productData } from './components/products/Data';
+import Feature from './components/feature';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <GlobalStyle />
       <Hero />
       <Product heading='Choose Your Fave' data={productData} />
+      <Feature />
     </Router>
   );
 }
