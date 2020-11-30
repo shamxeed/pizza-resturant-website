@@ -1,3 +1,11 @@
+# Pizza Restaurant Website 
+  
+### Live Demo:   [pizza-website](https://quirky-haibt-48fe43.netlify.app/)
+    
+### Preview:  
+![image](https://github.com/shamxeed/pizza-resturant-website/blob/master/src/images/site-preview.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
