@@ -8,4 +8,9 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         font-family: 'Montserrat', sans-serif;
     }
+    @media screen and (min-width: 800px){
+        .menu-icon {
+        font-size: 2rem;
+    }
+    }
 `

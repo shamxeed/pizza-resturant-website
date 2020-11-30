@@ -11,16 +11,18 @@ export const Nav = styled.nav `
 `
 export const NavLink = styled(Link)`
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     display: flex;
     align-items: center;
     text-decoration: none;
+    margin-top: 20px;
     cursor: pointer;
 
     @media screen and (max-width: 400px){
         position: absolute;
         top: 10px;
         left: 25px; 
+        margin-top: 0;
     }
 `;
 
@@ -35,6 +37,13 @@ export const NavIcon = styled.div`
     p {
         transform: translate(-125%, 150%);
         font-weight: bold;
+    }
+
+    @media screen and (min-width: 800px){
+        p {
+            transform: translate(-125%, 105%);
+            font-size: 2rem;
+        }
     }
 `;
 

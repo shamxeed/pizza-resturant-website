@@ -30,7 +30,7 @@ export const Icon = styled.div`
     right: 1.5rem;
     background: transparent;
     border: transparent;
-    font-size: 2rem;
+    font-size: clamp(2rem, 10vw, 4rem);
     cursor: pointer;
     outline: none;
 `;

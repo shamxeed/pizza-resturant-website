@@ -9,7 +9,7 @@ const Navbar = ({toggle}) => {
                 <NavLink to='/'><h1>Pizza</h1></NavLink>
                 <NavIcon onClick={toggle}>
                     <p>Menu</p>
-                    <Bars />
+                    <Bars className='menu-icon'/>
                 </NavIcon>
             </Nav>
         </>
