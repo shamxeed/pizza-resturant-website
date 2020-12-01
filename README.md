@@ -2,7 +2,7 @@
 
 >This is Pizza-Restaurant-Website built using ReactJs. I built this to put into practice how Styled-Components actually works after taken quite reasonable amount of toturials about it.
   
-### Live Demo:   [pizza-website](https://quirky-haibt-48fe43.netlify.app/)
+### Live Demo:   [pizza-website](https://jolly-bose-0a228b.netlify.app/)
     
 ### Preview:  
 ![image](https://github.com/shamxeed/pizza-resturant-website/blob/master/src/images/site-preview.png)
