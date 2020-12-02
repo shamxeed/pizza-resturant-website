@@ -11,17 +11,18 @@ export const Nav = styled.nav `
 `
 export const NavLink = styled(Link)`
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 3rem;
     display: flex;
     align-items: center;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 30px;
     cursor: pointer;
 
     @media screen and (max-width: 400px){
         position: absolute;
         top: 10px;
-        left: 25px; 
+        left: 25px;
+        font-size:2rem;
         margin-top: 0;
     }
 `;

@@ -10,7 +10,9 @@ export const GlobalStyle = createGlobalStyle`
     }
     @media screen and (min-width: 800px){
         .menu-icon {
-        font-size: 2rem;
+        font-size: 2.5rem;
+        margin-left: -10px;
+        margin-top: -3px;
     }
     }
 `
